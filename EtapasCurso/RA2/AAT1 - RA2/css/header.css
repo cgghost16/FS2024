@@ -1,0 +1,87 @@
+/*HEADER*/
+header{
+    background: rgb(15 23 42);
+    height: 10vw;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+
+.navigation ul{
+    list-style: none;
+    height: 100%;
+}
+.navigation a{
+    font-size: 1.4vw;
+    padding: 0rem 1rem;
+    text-decoration: none;
+    color: inherit;
+}
+.navigation a:hover{
+    background: linear-gradient(#fff,#002e9d);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: none;
+}
+
+/* Redes sociales */    
+/* 
+    f39e
+    f0e1
+    f16d
+*/
+.social-media{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    height: 100%;
+    padding: 0rem 1rem;
+}
+.social-media li{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background: inherit;
+    /* box-shadow: 0 15px 35px rgba(0, 0, 0, .1); */
+    cursor: pointer;
+}
+.social-media li .fa-brands{
+    font-size: 2em;
+    -webkit-text-stroke: 2px var(--clr);
+    color: transparent;
+}
+.social-media li::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    border-bottom: 1px solid var(--clr);
+    transition: 0.3s ease-in-out;
+    font-family: fontAwesome;
+    text-align: center;
+    line-height: 60px;
+    font-size: 2em;
+    color: var(--clr);
+    overflow: hidden;
+}
+.social-media li:hover::before{
+    height: 100%;
+}
+.social-media li:nth-child(1)::before{
+    content: '\f0e1';
+}
+.social-media li:nth-child(2)::before{
+    content: '\f39e';
+}
+.social-media li:nth-child(3)::before{
+    content: '\f16d';
+}

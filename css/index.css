@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+/*ATRIBUTOS APLICADOS A TODO EL DOCUMENTO*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+    font-family: "Rajdhani";
+}
+body{
+    /* background: linear-gradient(90deg, #002e9d 5%, #000 50%); */
+    /* #000 */
+    /* background: rgb(15 23 42); */
+    background-repeat: no-repeat;
+    color: rgb(148 163 184);
+    /*     height: 80vh;
+    max-height: 80vh; */
+    position: absolute;
+    padding: 2rem 2rem;
+    text-shadow: black 2px 2px;
+}
+
+.info{
+    list-style: none;
+    padding: 0rem 4rem;
+}
+
+.company{
+    text-decoration: none;
+    color: inherit;
+}
+.company:hover{
+    background: linear-gradient(#94A3B8, #701EF5);
+    -webkit-background-clip: text;
+    color: transparent;  
+    text-decoration: underline;
+    text-shadow: none;
+}
+
+/*MAIN*/
+main{
+    position: relative;
+    display: inline-block;
+    padding: 4rem 2rem;
+}
+
+
+
+/* Media query para pantallas medianas */
+@media screen and (min-width: 601px) and (max-width: 1024px){
+    body{
+        font-size: 1.7vw;
+    }
+    .pie-pagina{
+        font-size: 1.7vw;
+    }
+}
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+    body{
+        font-size: 2.4vw;
+    }
+    header, footer{
+        font-size: 2.4vw;
+        display: block;
+    }
+}

@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding: 190px;
+    background: url(../img/Ropa-de-soldador-1067x800.jpg);
+    width: 100%;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    background-color: gray;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 7vw;
+}
+nav a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+.menu{
+    display: flex;
+}
+.columna1{
+    flex: 25%;
+}
+.columna2{
+    flex: 60%;
+}
+.columna1, .columna2{
+    padding: 20px;
+    background-color: rgba(192,192,192, 0.455);
+}
+.contenedor-imagen{
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+}
+.foto-perfil{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.habilidades-img{
+    width: 100%;
+}
+.pasatiempo-img{
+    width: 100%;
+}
+p{
+    text-align: center;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+@media (max-width: 700px){
+    .menu{
+        flex-direction: column;
+    }
+    h2{
+        text-align: center;
+    }
+}

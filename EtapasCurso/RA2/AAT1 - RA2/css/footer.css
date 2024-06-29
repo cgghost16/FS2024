@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    background: rgb(15 23 42);
+    position: relative;
+    height: 10vh;
+    width: 100%;
+    padding: 4rem 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
+}
+
+.footer-text a{
+    color: inherit;
+    text-decoration: none;
+    padding: 2rem 0rem;
+}
+
+.footer-text a:hover{
+    background: linear-gradient(#0F172A,#94A3B8);
+    -webkit-background-clip: text;
+    color: transparent;  
+    text-shadow: none;
+}
+
+img{
+    height: 15rem;
+    border-radius: 50%;
+    padding: 0rem 4rem;
+}
+img:hover{
+    transform: scale(1.2);
+}

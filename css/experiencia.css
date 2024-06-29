@@ -1,0 +1,113 @@
+/*ATRIBUTOS APLICADOS A TODO EL DOCUMENTO*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+    font-family: 'Baumans';
+}
+body{
+    background-color: rgb(15 23 42);
+    color: rgb(148 163 184);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.pointer{
+    display: black;
+
+}
+.principalbody{
+    display: flex;
+    align-items: center;
+}
+/*ATRIBUTOS DEL HEADER*/
+header{
+    width: 100%;
+    background-size: cover;
+}
+.name{
+    padding: 0;
+    display: flex;
+    color: white;
+    text-align: left;
+    font-size: 3rem;
+    line-height: 1rem;
+    width: 40vw;
+    height: 10vh;
+}
+.name a:hover{
+    color: rgb(148 163 184);
+    font-size: 3.1rem;
+}
+.description{
+    color: white;
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 2rem 0rem;
+}
+.personalinfo{
+    line-height: 1rem;
+    font-size: 1.5rem;
+}
+.name a, .nav-personalinfo li a{
+    text-decoration: none;
+    color:  inherit; 
+}
+.nav-personalinfo li a:hover{
+    color: white;
+    font-size: 1.5rem;
+}
+.nav-personalinfo, .social{
+    list-style: none;
+    padding: 5rem 0rem;
+    line-height: 3rem;
+}
+.social{
+    align-items: center;
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 0.25rem;
+}
+.li-span{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+/*MAIN*/
+.info p{
+    padding: 0;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    width: 40vw;
+    padding: 2rem 0rem;
+}
+
+/*FOOTER*/
+.s-footer, .s-footer p{
+    text-align: center;
+    width: 6rem;
+}
+
+@media (max-width: 768px){   
+    body{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+@media (min-width: 768px){
+    body{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}

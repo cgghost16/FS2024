@@ -1,0 +1,73 @@
+body{
+    font-family: Arial;
+}
+.contenedorprimario{
+    border: 25px;
+    float: left;
+}
+.contenedorej2{
+    border: red 5px solid;
+    margin: 15px;
+    height: 200px;
+}
+/*Sección de cajas*/
+.caja1{
+    width: 250px;height: 200px;
+    border: red 5px solid;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 25px;
+    text-shadow: 0px 2px 2px yellow;
+}
+.caja2{
+    width: 300px;
+    height: 200px;
+    border: green 7px solid;
+    background-color: gray;
+    color: white;
+    text-shadow: 0px 2px 4px black;
+    padding: 5px;
+    margin: 0px;
+}
+.caja3{
+    border: green 5px solid;
+    width: 50%;
+    text-shadow: 0px 2px 4px yellow;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.caja4{
+    border: blue 5px solid;
+    width: 50%;
+    text-shadow: 0px 2px 4px yellow;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.caja5{
+    border: yellow 5px solid;
+    width: 50%;
+    text-shadow: 0px 2px 4px yellow;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.caja6{
+    width: 500px;
+    height: 25px;
+    border: red 5px solid;
+    text-shadow: 0px 2px 4px yellow;
+    margin: 10px;
+}
+.caja7{
+    width: 500px;
+    padding: 25px;
+    border: blue 5px solid;
+    text-shadow: 0px 2px 4px yellow;
+    margin: 10px;
+}
+.caja8{
+    width: 500px;
+    padding: 50px;
+    border: green 5px solid;
+    text-shadow: 0px 2px 4px yellow;
+    margin: 10px;
+}

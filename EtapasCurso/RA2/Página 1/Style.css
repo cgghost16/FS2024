@@ -1,0 +1,124 @@
+body{
+    text-align: center; margin: 0;
+    font-family: Verdana;
+    /* El valor 0 nos permite abarcar toda la dimensión del body */
+}
+header{
+    background-color: black;
+    height: 80px;
+}
+header>img{
+    background-color: #F2F2F2;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    align-items: center;
+}
+.nav1{
+    height: 70px;
+    float: right;
+}
+/*Articles*/
+.article1{
+    background-color: #F2F2F2; 
+    height: 200px;
+}
+.article2{
+    background-color: #F2B705;
+    height: 350px;
+}
+.article3{
+    background-color: #F2F2F2;
+    height: 300px;
+}
+.article4{
+    background-color: #F2B705; 
+    height: 400px;
+}
+/*H*/
+h1{
+    color: #F2B705;
+    font-size: 24px;
+}
+/*Sections*/
+.section1{
+    height: 200px;
+    width: 50%;
+    float: left;
+}
+.section2{
+    height: 200px;
+    width: 50%;
+    float: left;
+}
+.section3{
+    height: 250px;
+    width: 33.33%;
+    float: left;
+}
+.section3>img{
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px black;
+    transition: 0.5s;
+}
+.section3>img:hover{
+    transform: scale(1.1,1.1);
+    /*Transformación de escala - imágenes de nuestros trabajos*/
+}
+
+
+}
+.section4>img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
+}
+.section5{
+    height: 200px;
+    width: 60%;
+    float: left;
+    text-align: left;
+}
+.section6{
+    height: 300px;
+}
+.form1{
+    width: 100%;
+    height: 160px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    border: none;
+}
+.button{
+    height: 160px;
+    width: 100%;
+    float: left;
+}
+.button>input{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    height: 45px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    transition: background-color 0.5s linear;
+    transition: color 0.5s linear;
+    /*Transición para el botón*/
+    /* class="buttonstyle" */
+}
+.button>input:hover{
+    background-color: rgb(129,129,129);
+    color: black;
+}
+/*footer*/
+footer{
+    float: left;
+    text-align: center;
+    background-color: #f2f2f2;
+    height: 70px;
+    width: 100%;
+}

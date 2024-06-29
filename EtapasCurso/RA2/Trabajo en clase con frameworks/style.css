@@ -1,0 +1,53 @@
+body{
+    font-family: tahoma;
+    background: linear-gradient(330deg, #4392ab,#03ac87,#0400d6);
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 80px;
+}
+.contenedor-fw{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.fw-tailwind, .fw-bootstrap, .fw-foundation, .fw-purecss, .fw-bulma{
+    background-color: #21B7F8;
+    border: 1px solid;
+    border-radius: 15px;
+    width: 25%;
+    margin: 15px 0px;
+    text-align: center;
+}
+.fw-tailwind-imagen, .fw-bootstrap-imagen, .fw-foundation-imagen, .fw-purecss-imagen, .fw-bulma-imagen{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tailwind-contenido, .bootstrap-contenido, .foundation-contenido, .purecss-contenido, .bulma-contenido{
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 0px 70px 0px 0px;
+}
+.tailwind-pie, .bootstrap-pie, .foundation-pie, .purecss-pie, .bulma-pie{
+    background-color: #8FEC2A;
+    border-radius: 0px 0px 15px 15px;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    background-color: black;
+}
